@@ -1,10 +1,11 @@
 # ULMFIT_Sentiment_classification
 
 ## USAGE:
-<ul><li>git clone https://github.com/akhil-negi/ULMFIT_Sentiment_classification.git</li>
-  <li>sudo docker build -t ubuntu18_fastai .</li>
-  <li>sudo docker run -it -p 8889:8889 --name sentiment ubuntu18_fastai</li>
-  <li>This will launch a very basic html in the browser.</li></ul>
+<ul><li>$ git clone https://github.com/akhil-negi/ULMFIT_Sentiment_classification.git</li>
+  <li>$ cd ULMFIT_sentiment_classification</li>
+  <li>$ sudo docker build -t ubuntu18_fastai .</li>
+  <li>$ sudo docker run -it -p 8889:8889 --name sentiment ubuntu18_fastai</li>
+  <li>Launch the browser and navigate to http://0.0.0.0:8889/</li></ul>
   
 ## SUMMARY:
 <ul><li>The classifier uses <a href="https://arxiv.org/abs/1801.06146" target="_blank">ULMFIT</a>. Which is an approach to use transfer learning in NLP.</li>
